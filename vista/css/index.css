@@ -213,9 +213,10 @@ font-weight: 700;
 
 .home .content p {
   font-size: 1.7rem;
-  color: var(--light-color);
+  color: var(--white);
   line-height: 1.8;
   padding: 1rem 0;
+  text-shadow: var(--text-shadow);
 }
 .btn-home {
   display: inline-block;
@@ -228,7 +229,7 @@ font-weight: 700;
   color: var(--blue);
   cursor: pointer;
   background-color: var(--light-green);
-  font-size: 1.7 rem;
+  font-size: 18px;
   text-decoration: none;
 }
 
@@ -344,7 +345,10 @@ font-weight: 700;
 }
 
 .about .row .image {
-  flex: 1 1 20rem;
+  /* flex: 1 1 20rem; */
+  width: 500px;
+  height: auto;
+  margin-left: 50px;
 }
 
 .about .row .image img {
@@ -367,6 +371,7 @@ font-weight: 700;
   padding: 1rem 0;
   font-size: 1.5rem;
   line-height: 1.8;
+  margin-right: 20px;
 }
 
 /* eps */
